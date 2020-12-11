@@ -17,14 +17,16 @@ public class Ejemplo00 {
     public static void main(String[] args) {
         // TODO code application logic here 
         
-        int n = 8;
+        int n = 5;
         double suma = 0;
         double numerador;
         double denominador;
-        for (int i = 2; i <= n; i++) {
-            numerador = Math.pow(2, i);
-            denominador = 2*i;
-            suma = suma + (numerador/denominador);
+        for (int i = 2; i <= n; i++) { //
+            numerador = Math.pow(2, i);//(2)^i         2^6 = 32
+            denominador = 2*i;         //              2*5 =10
+            //System.out.println("   " +i +"   ");
+            
+            suma = suma + (numerador/denominador);// = 4.3 + 3.2=7.5
                     
         }
         
